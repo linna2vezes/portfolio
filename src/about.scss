@@ -1,0 +1,158 @@
+@import "./styles.scss";
+
+
+.about {
+  padding: 92px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+    @media (min-width: 992px) {
+    // display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 133px;
+    margin: 0px;
+    // padding: 0px;
+
+  
+  }
+
+  &-card{
+  padding-top: 90px; 
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+    @media (min-width: 992px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0px;
+      margin: 133px 117px 0 142px ;
+     }
+
+  &-image {
+      border-radius: 8px;
+      width: 100%;
+      @media (min-width: 992px) {
+        max-height: 547px;
+        max-width: 448px;
+      }
+  }
+ 
+  }
+
+  &-title{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    @media (min-width: 992px) {
+      text-align: left;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 71px;
+      letter-spacing: -0.5px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 32px;
+      }
+   }
+&-description{
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.44px;
+  @media (min-width: 992px) {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    max-width: 568px;
+    margin-left: 32px;
+  }
+}
+&-titlesKills{
+  font-size: 24px;
+  // padding-top: 5px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  line-height: 32px;
+  @media (min-width: 992px) {
+    margin-top: 100px;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+    padding: 0;
+     }
+}
+
+}  
+
+
+.section_skills {
+  padding: 0px 15px 90px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  gap:24px;
+
+  @media (min-width: 992px) {
+    padding: 60px 133px 40px 165px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    }
+    
+    &-card_Skills {
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      background-color: $colorRellenos;
+      color: white;
+      max-width: 992px;
+      margin: 0;
+     
+      padding: 20px;
+      @media (min-width: 992px) {
+        max-width:364.21px ;
+        
+            }
+    }
+
+    &-titleKillsBOX{
+      font-size: 20px;
+      text-align: left;
+      font-weight: 500;
+      line-height: 24px;
+      @media (min-width: 992px) {
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 40px;
+      }
+    }
+
+    &-description{
+      font-size: 16px;
+      color: white;
+      text-align: justify;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.44px;
+      @media (min-width: 992px) {
+        margin-top: 24px;
+        margin-bottom: 0px;
+        max-width: 568px;
+      }
+    }
+ }

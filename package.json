@@ -1,0 +1,16 @@
+{
+  "name": "estudo-de-caso",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel src/*.html"
+  },
+  "version": "1.0.0",
+  "description": "",
+   "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0",
+    "parcel": "^2.4.0"
+  }
+}

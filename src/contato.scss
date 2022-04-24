@@ -1,0 +1,154 @@
+@import "./styles.scss";
+
+.head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+    // padding: 92px 16px 16px 16px;
+    justify-content: center;
+    margin:auto;
+    color: white;
+    text-align: center;
+
+    @media (min-width: 992px) {
+        padding-top: 150px;
+        }
+    
+    &-tittle {
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 40px;
+      letter-spacing: 0.25px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+      @media (min-width: 992px) {
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 71px;
+      letter-spacing: -0.5px;
+      }
+    }
+
+    &-description {
+        padding: 14px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+            @media (min-width: 992px) {
+            font-size: 16px;
+            padding: 16px;
+            }
+      }
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #26292D;
+    color: white;
+    width: 328px;
+    height: 546px;
+    margin: auto;
+    padding: 10px 0 20px 24px ;
+    margin-bottom: 64px;
+    
+         
+    @media (min-width: 992px) {
+        margin: auto;
+        width: 447px;
+        height: 546px;
+        margin-bottom: 120px;
+        padding: 0px 0px 0px 18px ;
+       
+         }
+
+    &-subtittle{ 
+    text-align: left;   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.44px;
+    margin-top:10px;
+    
+     @media (min-width: 992px) {
+       margin-top:18px;
+       line-height: 35px;
+       margin-left: 15px;
+            }
+    }
+
+
+       
+    input {
+        // position: static;
+        border-radius: 8px;
+        background-color: $colorRellenos;
+        width: 100%;
+        border: 0.5px solid #A0A0A1;
+        position:relative;
+        height: 60px;
+        padding: 8px;
+        padding-left: 16px;
+        width: 280px; 
+        color: #A0A0A1; 
+        margin-top: 0px;
+        position: static;
+        @media (min-width: 992px) {
+            margin: auto;
+            // position: static;
+            width: 399px;
+            color: #A0A0A1; 
+            margin-top: 10px;
+            margin-left: 8px;
+             }
+               
+    }
+   
+    textarea {
+        resize: none;
+        border-radius: 8px;
+        border: 1px solid #A0A0A1;
+        background-color: $colorRellenos;
+        width: 100%;
+        width: 280px;
+        height: 150px;
+        color: #A0A0A1; 
+        padding-left: 16px;
+        padding-top: 16px;
+        font-family: sans-serif;
+
+        @media (min-width: 992px) {
+            position: static;
+            width: 399px;
+            color: #A0A0A1; 
+            margin-top: 10px;
+            margin-left: 8px;
+             
+             }
+                 
+                
+      }
+
+    
+     button {
+         width:100% ;
+         justify-content: center;
+         margin-top: 24px;
+         margin-bottom: 10px;
+         width: 280px;
+         @media (min-width: 992px) {
+            
+            margin-top: 24px;
+            width: 399px;
+            margin-left: 8px;
+            margin-bottom: 24px;
+             
+             }
+         }
+  
+ }
+
+  
