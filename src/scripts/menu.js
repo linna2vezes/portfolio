@@ -13,7 +13,7 @@ const nav =document.querySelector('.navbar-links')
 
 // }
 
-toggleMenu = () => {
+const toggleMenu = () => {
 //   document.documentElement.classList.active ? document.documentElement.style.overflow = "hidden" :  document.documentElement.style.overflow = "visible"
 const body = document.querySelector("body")
 body.classList.toggle("over-flow-hidden")
